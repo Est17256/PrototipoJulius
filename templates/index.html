@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <title>Prototipo V1</title>
+  </head>
+  <body>
+      <form action="{{ url_for('personadd')}}" method="post">
+	  <h5>Bienvenido, Ingrese sus datos</h5>
+          <div>
+              <input type="text" name="nombre" placeholder="Nombre">
+          </div>
+          <div>
+              <input type="text" name="apellido" placeholder="Apellido">
+          </div>
+          <div>
+              <button>Enviar</button>
+          </div>
+      </form>
+  </body>
+
+</html>
